@@ -9,7 +9,8 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.icons{
+
+.icons {
     display: none;
 }
 
@@ -27,7 +28,7 @@ body {
     list-style: none;
 }
 
-.navber-icons{
+.navber-icons {
     width: 20px;
     color: black;
     display: none;
@@ -77,16 +78,6 @@ body {
 }
 
 
-/* play destination  */
-.destination-title {
-    text-align: center;
-    margin-top: 30px;
-}
-
-.Destination-img {
-    display: grid;
-    grid-template-columns: repeat(3);
-}
 
 /* no end */
 .chooge-banner {
@@ -124,25 +115,29 @@ body {
     width: 50%;
     padding: 15px;
 }
+
 /* discount section */
-.discount-header{
+.discount-header {
     display: flex;
     align-items: center;
     gap: 15px;
     margin-top: 50px;
 }
-.discount-text{
+
+.discount-text {
     border: 1px solid #FF5400;
     padding: 40px;
     border-radius: 10px;
     width: 100%;
-   
+
 }
-.discount-img{
+
+.discount-img {
     position: relative;
-    
+
 }
-.discount-70{
+
+.discount-70 {
     background-color: #FF5400;
     padding: 10px 20px;
     text-align: center;
@@ -155,43 +150,94 @@ body {
     right: 2px;
     bottom: 100px;
 }
+
 /* my make section */
-.Bangladesh-top-place{
- display: flex;
- justify-content: center;
- gap: 50px;
- margin-top: 40px;
+.Bangladesh-top-place {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
 }
-.top-playes-header{
+
+.top-playes-header {
     margin-top: 50px;
 }
+
 /* footer section */
-.font-header{
+.font-header {
     background-color: #F3F3F4;
     margin-top: 50px;
     padding: 100px;
     align-items: center;
 }
 
+
+
+
+/* play destination  */
+.Destination-img-section {
+    display: flex;
+    gap: 20px;
+}
+
+.img-1 {
+    width: 100%;
+    position: relative;
+    height: 300px;
+}
+
+.img-1-text {
+    color: #F3F3F4;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+
 /* mobile responce */
 @media screen and (max-width: 600px) {
+
+    /* last section  */
+    .Destination-img-section {
+        display: grid;
+        gap: 20px;
+    }
+
+    .img-1 {
+        width: 100%;
+        position: relative;
+        height: 300px;
+    }
+
+    .img-1-text {
+        color: #F3F3F4;
+        position: absolute;
+        top: 40%;
+        left: 40%;
+    }
+
+
+
+
     /* footer section */
-.font-header{
-    background-color: #F3F3F4;
-    margin-top: 50px;
-    padding: 50px;
-    align-items: center;
-}
+    .font-header {
+        background-color: #F3F3F4;
+        margin-top: 50px;
+        padding: 50px;
+        align-items: center;
+    }
+
     .header-nav li {
         list-style: none;
         display: none;
 
     }
-    .navber-icons{
-        width: 50px;        
+
+    .navber-icons {
+        width: 50px;
         display: block;
-        
-    }    
+
+    }
 
     .banner-input {
         display: grid;
@@ -219,17 +265,6 @@ body {
 
     }
 
-    .destination-title {
-        text-align: center;
-        width: 90%;
-        margin-top: 30%;
-    }
-
-    .Destination-img {
-        display: grid;
-        justify-content: center;
-
-    }
 
     .chooge-banner {
         display: grid;
@@ -246,6 +281,7 @@ body {
         place-items: center;
         margin-top: 20px;
     }
+
     .best-price-text {
         line-height: 20px;
         background-color: #FDF6F6;
@@ -253,23 +289,27 @@ body {
         width: 90%;
         padding: 15px;
     }
-    .discount-header{
+
+    .discount-header {
         display: grid;
-        align-items: center;        
+        align-items: center;
         gap: 15px;
         margin-top: 50px;
     }
-    .discount-text{
+
+    .discount-text {
         border: 1px solid #FF5400;
         padding: 40px;
         border-radius: 10px;
         width: 80%;
-       
+
     }
-    .discount-img{
+
+    .discount-img {
         width: 100%;
     }
-    .discount-70{
+
+    .discount-70 {
         background-color: #FF5400;
         padding: 10px 20px;
         text-align: center;
@@ -282,12 +322,14 @@ body {
         right: 10px;
         bottom: 80px;
     }
-    .Bangladesh-top-place{
+
+    .Bangladesh-top-place {
         display: grid;
-        justify-content: center;        
+        justify-content: center;
         margin-top: 40px;
-       }
-       .top-playes-header{
+    }
+
+    .top-playes-header {
         margin-top: 100px;
     }
 }
