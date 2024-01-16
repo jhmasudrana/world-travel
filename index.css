@@ -193,7 +193,16 @@ body {
     left: 40%;
 }
 
-
+.Destination-img-section-2 {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.Destination-img-section-3{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
 /* mobile responce */
 @media screen and (max-width: 600px) {
 
@@ -202,7 +211,16 @@ body {
         display: grid;
         gap: 20px;
     }
-
+    .Destination-img-section-2 {
+        display: grid;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .Destination-img-section-3{
+        display: grid;
+        gap: 20px;
+        margin-top: 20px;
+    }
     .img-1 {
         width: 100%;
         position: relative;
